@@ -46,11 +46,11 @@ For example: kevin@cloud.vn
 
 ## Step 5 - Configure CloudWatch Rule Config for the Input transform message to your email
 
- <!-- Syntax config -->
+**Syntax config**
 
 {"instance-id":"$.detail.instance-id","state":"$.detail.state","time":"$.time","region":"$.region","account":"$.account"}
 
- <!-- Output config -->
+**Output config**
 
 "At <time>, the status of your EC2 instance <instance-id> on account <account> in the AWS Region <region> has changed to <state>."
 
